@@ -1,0 +1,42 @@
+
+
+(∀x)(F(x,d) ∧ C(x,b) →L(x)) #Albatroz de Laysan
+
+(∀x)(T(x,g) ∧ W(x,l) ∧ O(x,p) → F(x,d)) #diomedeidae
+
+(∀x)(N(x,t’) ∧ H(x,m’) → O(x,p)) #procellariiformes
+
+(∀x)(F(x,d) ∧ C(x,e) →A(x)) #Albatroz Patinegro
+
+(∀x)(F(x,a) ∧ M(x,a’) →P(x)) #Cisne Pequeno
+
+(∀x)(N(x,l) ∧ V(x,l') ∧ C(x,b) ∧ O(x,a') → F(x,a)) #anatidae
+
+(∀x)(B(x,r) ∧ F(x,m) → O(x,a’)) #anseriformes
+
+(∀x)(F(x,a) ∧ ((E(v) ∧ L(c)) ∨ (E(i) ∧ L(u))) → G(x)) #Ganso do Canadá
+
+(∀x)(F(x,a) ∧ M(x,t) → U(x)) #Cisne Trombeteiro
+
+
+L(x) = x é um Albatroz de Laysan
+C(x,y) = a cor de x é y ("b" é branca e "e" é escura)
+F(x,y) = a família de x é y ("d" é diomedeidae e "a" é anatidae)
+T(x,y) = o tamanho de x é y ("g" é grande)
+W(x,y) = as asas de x são de um jeito y ("l" é longo)
+O(x,y) = a ordem de x é y ("p" é procelariiformes e "a'" é anseriformes)
+A(x) = x é um Albatroz Patinegro
+N(x,y) = o pescoço de x é y ("l" é longo)
+P(x) = x é um Cisne Pequeno
+M(x,y) = o assobio de x é y ("k" é abafado e "m" é "t" é parece uma trompeta)
+V(x,y) = x voa de um jeito y ("l" é lentamente)
+B(x,y) = o bico de x é de um jeito y ("r" é reto )
+F(x,y) = o pé de x é de um jeito y ("m" é membranoso)
+E(y) = y é a estação no qual nos encontramos ("i" é inverno e "v" é verão)
+L(y) = y é o lugar onde nos encontramos ("u" é EUA e "c" é Canadá)
+G(x) = x é um Ganso do Canadá
+U(x) = x é um cisne trompeteiro
+
+	
+	
+	
