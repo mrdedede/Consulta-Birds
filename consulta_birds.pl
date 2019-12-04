@@ -1,6 +1,6 @@
 /*
 Autor: Thiago de França
-Comments: André Filho
+Author2: André Filho
 
 Aqui nós implementaremos um programa prolog capaz de 
 identificar qual a espécie de pássaro observada pelo usuário
