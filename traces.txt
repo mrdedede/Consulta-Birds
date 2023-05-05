@@ -1,0 +1,104 @@
+Traces:
+
+  Call: (7) bird ? creep
+   Call: (8) writeln("Seram feitas algumas perguntas sobre o pássaro, se uma das opções entre aspas for a correta é importante que digite igual.") ? creep
+Seram feitas algumas perguntas sobre o pássaro, se uma das opções entre aspas for a correta é importante que digite igual.
+   Exit: (8) writeln("Seram feitas algumas perguntas sobre o pássaro, se uma das opções entre aspas for a correta é importante que digite igual.") ? creep
+   Call: (8) nl ? creep
+
+   Exit: (8) nl ? creep
+   Call: (8) writeln("Qual a cor do pássaro 'branca', 'escura' ou outras?") ? creep
+Qual a cor do pássaro 'branca', 'escura' ou outras?
+   Exit: (8) writeln("Qual a cor do pássaro 'branca', 'escura' ou outras?") ? creep
+   Call: (8) read(_G2308) ? creep
+|: branca.
+
+   Exit: (8) read(branca) ? creep
+^  Call: (8) assert(cor(branca)) ? creep
+^  Exit: (8) assert(cor(branca)) ? creep
+   Call: (8) nl ? creep
+
+   Exit: (8) nl ? creep
+   Call: (8) writeln("Qual a cor da cabeça do pássaro 'preta' ou outras?") ? 
+…
+   Exit: (8) read(verao) ? creep
+^  Call: (8) assert(estacao(verao)) ? creep
+^  Exit: (8) assert(estacao(verao)) ? creep
+   Call: (8) nl ? creep
+
+   Exit: (8) nl ? creep
+   Exit: (7) bird ? creep
+true.
+
+[trace] 2 ?- bird(Bird).
+   Call: (7) bird(_G2240) ? creep
+   Call: (8) familia(diomedeidae) ? creep
+   Call: (9) tamanho(grande) ? creep
+   Fail: (9) tamanho(grande) ? creep
+   Fail: (8) familia(diomedeidae) ? creep
+   Redo: (7) bird(_G2240) ? creep
+   Call: (8) familia(diomedeidae) ? creep
+   Call: (9) tamanho(grande) ? creep
+   Fail: (9) tamanho(grande) ? creep
+   Fail: (8) familia(diomedeidae) ? creep
+   Redo: (7) bird(_G2240) ? creep
+   Call: (8) familia(anatidae) ? creep
+   Call: (9) pescoco(longo) ? creep
+   Fail: (9) pescoco(longo) ? creep
+   Fail: (8) familia(anatidae) ? creep
+   Redo: (7) bird(_G2240) ? creep
+   Call: (8) familia(anatidae) ? creep
+   Call: (9) pescoco(longo) ? creep
+   Fail: (9) pescoco(longo) ? creep
+   Fail: (8) familia(anatidae) ? creep
+   Redo: (7) bird(_G2240) ? creep
+   Call: (8) familia(anatidae) ? creep
+   Call: (9) pescoco(longo) ? creep
+   Fail: (9) pescoco(longo) ? creep
+   Fail: (8) familia(anatidae) ? creep
+   Redo: (7) bird(_G2240) ? creep
+^  Call: (8) not(bird(albatroz_de_laysan)) ? creep
+   Call: (9) bird(albatroz_de_laysan) ? creep
+   Call: (10) familia(diomedeidae) ? creep
+   Call: (11) tamanho(grande) ? creep
+   Fail: (11) tamanho(grande) ? creep
+   Fail: (10) familia(diomedeidae) ? creep
+   Fail: (9) bird(albatroz_de_laysan) ? creep
+^  Exit: (8) not(user:bird(albatroz_de_laysan)) ? creep
+^  Call: (8) not(bird(albatroz-patinegro)) ? creep
+   Call: (9) bird(albatroz-patinegro) ? creep
+   Call: (10) familia(diomedeidae) ? creep
+   Call: (11) tamanho(grande) ? creep
+   Fail: (11) tamanho(grande) ? creep
+   Fail: (10) familia(diomedeidae) ? creep
+   Redo: (9) bird(albatroz-patinegro) ? creep
+   Fail: (9) bird(albatroz-patinegro) ? creep
+^  Exit: (8) not(user:bird(albatroz-patinegro)) ? creep
+^  Call: (8) not(bird(cisne-pequeno)) ? creep
+   Call: (9) bird(cisne-pequeno) ? creep
+   Call: (10) familia(anatidae) ? creep
+   Call: (11) pescoco(longo) ? creep
+   Fail: (11) pescoco(longo) ? creep
+   Fail: (10) familia(anatidae) ? creep
+   Redo: (9) bird(cisne-pequeno) ? creep
+   Fail: (9) bird(cisne-pequeno) ? creep
+^  Exit: (8) not(user:bird(cisne-pequeno)) ? creep
+^  Call: (8) not(bird(cisne-trombeteiro)) ? creep
+   Call: (9) bird(cisne-trombeteiro) ? creep
+   Call: (10) familia(anatidae) ? creep
+   Call: (11) pescoco(longo) ? creep
+   Fail: (11) pescoco(longo) ? creep
+   Fail: (10) familia(anatidae) ? creep
+   Redo: (9) bird(cisne-trombeteiro) ? creep
+   Fail: (9) bird(cisne-trombeteiro) ? creep
+^  Exit: (8) not(user:bird(cisne-trombeteiro)) ? creep
+^  Call: (8) not(bird(ganso-do-canada)) ? creep
+   Call: (9) bird(ganso-do-canada) ? creep
+   Call: (10) familia(anatidae) ? creep
+   Call: (11) pescoco(longo) ? creep
+   Fail: (11) pescoco(longo) ? creep
+   Fail: (10) familia(anatidae) ? creep
+   Fail: (9) bird(ganso-do-canada) ? creep
+^  Exit: (8) not(user:bird(ganso-do-canada)) ? creep
+   Exit: (7) bird(inconclusivo) ? creep
+Bird = inconclusivo.
