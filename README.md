@@ -4,6 +4,7 @@ Projeto em Prolog para a cadeira de Lógica para Computação (IF972)
 Semestre 2019.1
 
 Professor: [Sérgio Queiroz](https://sites.google.com/a/cin.ufpe.br/srmq/home)
+
 Grupo: [André Filho](https://github.com/mrdedede); Thiago Vanderlei; [Lucas do Carmo](https://github.com/Lucasdcb)
 
 Implementação de um programa em Prolog para identificar pássaros
